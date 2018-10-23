@@ -1,3 +1,7 @@
 .button {
     -fx-font-weight: bold;
 }
+
+.padding-pane > Pane {
+    -fx-padding: 10px;
+}
