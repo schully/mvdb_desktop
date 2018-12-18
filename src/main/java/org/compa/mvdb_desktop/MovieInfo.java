@@ -38,8 +38,8 @@ public class MovieInfo {
         m.setId(obj.getString("id"));
         m.setTitle(obj.getString("title"));
         m.setRuntime(obj.getIntValue("runtime"));
-        m.setImdbScore(obj.getDoubleValue("imdbScore"));
-        m.setAgeRated(obj.getString("ageRated"));
+        m.setImdb_score(obj.getDoubleValue("imdbScore"));
+        m.setAge_rated(obj.getString("ageRated"));
         m.setPlot(obj.getString("plot"));
         m.setGenre(Arrays.asList(genre.toArray(new String[genre.size()])));
        

@@ -16,8 +16,8 @@ public class Movie {
     private String title;
     private int runtime;
     private String plot;
-    private double imdbScore;
-    private String ageRated;
+    private double imdb_score;
+    private String age_rated;
     private String possessor;
     private List<String> genre;
 
@@ -53,20 +53,20 @@ public class Movie {
         this.plot = plot;
     }
 
-    public double getImdbScore() {
-        return imdbScore;
+    public double getImdb_score() {
+        return imdb_score;
     }
 
-    public void setImdbScore(double imdbScore) {
-        this.imdbScore = imdbScore;
+    public void setImdb_score(double imdb_score) {
+        this.imdb_score = imdb_score;
     }
 
-    public String getAgeRated() {
-        return ageRated;
+    public String getAge_rated() {
+        return age_rated;
     }
 
-    public void setAgeRated(String ageRated) {
-        this.ageRated = ageRated;
+    public void setAge_rated(String age_rated) {
+        this.age_rated = age_rated;
     }
 
     public String getPossessor() {

@@ -21,9 +21,9 @@ public class AddFrame extends javax.swing.JFrame {
         title.setText(String.valueOf(m.getTitle()));
         plot.setText(String.valueOf(m.getPlot()));
         runtime.setText(String.valueOf(m.getRuntime()));
-        ageRated.setText(String.valueOf(m.getAgeRated()));
+        ageRated.setText(String.valueOf(m.getAge_rated()));
         genre.setText(String.valueOf(m.getGenre()));
-        imdbScore.setText(String.valueOf(m.getImdbScore()));
+        imdbScore.setText(String.valueOf(m.getImdb_score()));
         
     }
     
